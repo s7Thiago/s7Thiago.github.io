@@ -45392,7 +45392,7 @@ r=t.fQ
 return T.mf(H.d([M.d_(C.r0,U.XW("https://conceptdraw.com/a2241c3/p20/preview/640/pict--window-buttons-mac-os-x-buttons-and-segmented-controls-vector-stencils-library",q,q),q,q,q,q,1/0,C.bU,q,q,200),T.jv(H.d([L.cO(H.b(J.aq(s.h(o,p),"city")),q,K.c5(a).a5.e.NV(C.om)),L.cO(C.b.I($.a0r[P.jf(J.Xk(J.aq(s.h(o,p),"date"),"/")[1],q)],0,3)+", "+H.b(J.aq(J.aq(J.aq(s.h(o,p),"forecast"),0),"weekday")),q,q)],r),C.bT,C.p3),T.hA(q,q,200),M.d_(C.bQ,M.pD(C.av,!0,new K.by(new P.aU(100,100),C.u,new P.aU(100,100),C.u),new Q.x0(new K.vj(T.a_n(U.XW("https://scontent.fgyn7-1.fna.fbcdn.net/v/t1.0-9/82775852_2557875374339619_3384289596224307200_o.jpg?_nc_cat=110&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFMRJdzFFr5n-4YUkcTjIDKXAeRH1SXbB1cB5EfVJdsHbGsp95vvig00YbQbRbu4PNETDBAJE20DGxiqROnuDtI&_nc_ohc=lahvNbHezYwAX_KJ5JM&_nc_oc=AQltbybVKSNr2iTwumYHJvES09FMXy6fruzFv9CuN7SQ5U3LrYILgZ26yN-_9jFj_tA&_nc_ht=scontent.fgyn7-1.fna&oh=49e7332650d74c37c2199a7341a0d8ce&oe=5FC6F832",q,q)),q),L.cO("Thiago Silva",q,q),L.cO("Basic Level",q,q),q),C.K,q,0,q,q,q,C.bI),q,q,q,q,1/0,q,q,q,this.a.c.a*0.15)],r),C.au,C.dQ)}else return T.l5(L.cO("Aguardando dados...",q,A.dk(q,q,q,q,q,q,q,q,q,q,q,50,q,q,q,q,!0,q,q,q,q,q,q)),q,q)},
 $S:300}
 L.vP.prototype={
-L:function(a,b){var s=Y.MH(b,!0,t.xz),r=Y.MH(b,!0,t.F2),q=s.a,p=s.b,o=$.Fl(),n=q===0||p>50?0:25
+L:function(a,b){var s=Y.MH(b,!0,t.xz),r=Y.MH(b,!0,t.F2),q=s.a,p=s.b,o=$.Fl(),n=q===0||p>50?0:40
 return M.pD(C.av,!0,new K.by(new P.aU(n,n),C.u,C.u,C.u),B.XS(new L.Hl(q),r.gnL(r),t.dt),C.K,o,0,null,null,null,C.bI)}}
 L.Hl.prototype={
 $2:function(a,b){var s,r=null,q=b.b
@@ -45427,18 +45427,18 @@ $C:"$2",
 $R:2,
 $S:304}
 V.lo.prototype={
-L:function(a,b){var s,r,q,p,o,n=this,m=null,l=Y.MH(b,!0,t.xz),k=n.c.b*0.07,j=l.a,i=n.d,h=j<i&&i===j+1?k:0,g=j>i&&i===j-1?k:0
-j=j===i?$.Fl():C.j
-s=n.e
+L:function(a,b){var s,r,q,p,o,n=null,m=Y.MH(b,!0,t.xz),l=m.a,k=this.d,j=l<k&&k===l+1?60:0,i=l>k&&k===l-1?60:0
+l=l===k?$.Fl():C.j
+s=this.e
 r=J.a9(s)
-q=H.b(J.Xk(r.h(s,"date"),"/")[0])+" "+C.b.I($.a0r[P.jf(J.Xk(r.h(s,"date"),"/")[1],m)],0,3)
-p=l.a===i
+q=H.b(J.Xk(r.h(s,"date"),"/")[0])+" "+C.b.I($.a0r[P.jf(J.Xk(r.h(s,"date"),"/")[1],n)],0,3)
+p=m.a===k
 o=p?50:45
 p=p?E.r_("white"):C.kT
-q=L.cO(q,m,A.dk(m,m,p,m,m,m,m,m,m,m,m,o,m,l.a===i?C.aH:C.t,m,m,!0,m,m,m,m,m,m))
-s=i===0?"Hoje":H.b(r.h(s,"weekday"))
-r=l.a===i?E.r_("white"):C.kT
-return D.a_W(m,new V.vd(j,0,new X.c3(new K.by(C.u,new P.aU(h,h),C.u,new P.aU(g,g)),C.o),new V.aT(0,0,0,0),M.d_(C.bQ,T.jv(H.d([q,L.cO(s,m,A.dk(m,m,r,m,m,m,m,m,m,m,m,25,m,l.a===i?C.ol:C.t,m,m,!0,m,m,m,m,m,m))],t.fQ),C.au,C.bH),m,m,m,m,210,m,C.up,m,m),m),!1,m,m,m,m,m,new V.IR(n,l),m,m)}}
+q=L.cO(q,n,A.dk(n,n,p,n,n,n,n,n,n,n,n,o,n,m.a===k?C.aH:C.t,n,n,!0,n,n,n,n,n,n))
+s=k===0?"Hoje":H.b(r.h(s,"weekday"))
+r=m.a===k?E.r_("white"):C.kT
+return D.a_W(n,new V.vd(l,0,new X.c3(new K.by(C.u,new P.aU(j,j),C.u,new P.aU(i,i)),C.o),new V.aT(0,0,0,0),M.d_(C.bQ,T.jv(H.d([q,L.cO(s,n,A.dk(n,n,r,n,n,n,n,n,n,n,n,25,n,m.a===k?C.ol:C.t,n,n,!0,n,n,n,n,n,n))],t.fQ),C.au,C.bH),n,n,n,n,210,n,C.up,n,n),n),!1,n,n,n,n,n,new V.IR(this,m),n,n)}}
 V.IR.prototype={
 $0:function(){var s=this.b
 s.a=this.a.d
