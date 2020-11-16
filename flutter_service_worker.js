@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+  "assets/AssetManifest.json": "d31eebfb6673ceae0321a39e3b3623fb",
+"assets/assets/images/profile-photo-front-art-thiago.png": "4f275879ffd466cc6a7d20846a8c2423",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "132a5e63b5e510933ab4845577716106",
 "assets/NOTICES": "c46c0a35974a3be89e110a6e1f0a5bd8",
@@ -11,9 +12,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "c19fe56c56b452bd4b07f534f359a904",
-"/": "c19fe56c56b452bd4b07f534f359a904",
-"main.dart.js": "0cdc2edd6c6e1175826a6eac39fd0232",
+"index.html": "1268498396d8250c487f7b3f43b7781c",
+"/": "1268498396d8250c487f7b3f43b7781c",
+"main.dart.js": "a578789841fab20f0146c1aa5ae8594f",
 "manifest.json": "013e5445f31f8a254c28167d067ec6d7",
 "version.json": "08d5d326be8649af214046767d9064aa"
 };
