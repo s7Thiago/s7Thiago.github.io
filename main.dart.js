@@ -44649,7 +44649,7 @@ m=n?m*0.2:m*0.5
 n=n?0.2:1
 s=P.cO(0,500)
 r=t.fQ
-return G.XN(new G.nj(T.VA(H.d([new U.or(M.a5M(q,q,new L.ns("images/profile-photo-front-art-thiago.png",q,q)),q),T.VA(H.d([new L.qo(q,new Q.fg(q,H.d([new Q.fg("Hey! this is".toUpperCase(),q,C.qA),new Q.fg(" "+"Thiago".toUpperCase(),q,$.a1n())],t.iE),q),q,q,q),L.ZZ("I'm a Computer Scientist and Mobile\n Developer in Brasilia",C.zb,C.i0)],r),C.jy)],r),C.p2),n,C.bJ,s,q,q),C.k,C.og,o,m)}}
+return G.XN(new G.nj(T.VA(H.d([new U.or(M.a5M(q,q,new L.ns("assets/images/profile-photo-front-art-thiago.png",q,q)),q),T.VA(H.d([new L.qo(q,new Q.fg(q,H.d([new Q.fg("Hey! this is".toUpperCase(),q,C.qA),new Q.fg(" "+"Thiago".toUpperCase(),q,$.a1n())],t.iE),q),q,q,q),L.ZZ("I'm a Computer Scientist and Mobile\n Developer in Brasilia",C.zb,C.i0)],r),C.jy)],r),C.p2),n,C.bJ,s,q,q),C.k,C.og,o,m)}}
 Q.ye.prototype={
 J:function(a,b){var s=Y.L6(b,!0,t.mQ),r=P.cO(0,400),q=this.c.a
 q=s.b==="Projects"?q*0.8:q*0.5
