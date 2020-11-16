@@ -42059,7 +42059,7 @@ $1:function(a){return new G.iB("Projects",new P.c6(t.V))},
 $S:279}
 F.th.prototype={
 N:function(a,b){var s=null,r=F.d9(b,!1).a,q=Y.J5(b,!0,t.mQ)
-return M.ki(C.qb,new B.vh(new G.My(new F.Dt(q,r),3,!0,!0,!0),s,C.k,!1,s,!1,new L.vD(s),!0,s,3,C.cY,C.vM,s,C.bH,s),C.j,s,s,s,s,s,s,s)}}
+return M.ki(C.qb,new B.vh(new G.My(new F.Dt(q,r),3,!0,!0,!0),s,C.k,!1,s,!1,new L.vD(s),!0,s,3,C.cY,C.vM,s,C.bH,s),C.j,s,s,s,s,s,s,r.a*0.5)}}
 F.Dt.prototype={
 $2:function(a,b){var s=null,r=this.a
 return D.W5(s,new F.C4(C.nP[b],r.a==b,this.b,3,b,r,s),!1,s,s,s,s,s,new F.Ds(r,b),s,s)},
@@ -42074,16 +42074,15 @@ s.b=C.nP[s.a]
 s.b_()},
 $S:0}
 F.C4.prototype={
-N:function(a,b){var s,r,q,p=this,o=null,n=p.d,m=!n
-if(m)s=p.r===p.x.a+1?new P.aI(40,40):new P.aI(0,0)
+N:function(a,b){var s,r,q=this,p=null,o=q.d,n=!o
+if(n)s=q.r===q.x.a+1?new P.aI(40,40):new P.aI(0,0)
 else s=new P.aI(0,0)
-if(m)m=p.r===p.x.a-1?new P.aI(40,40):new P.aI(0,0)
-else m=new P.aI(0,0)
-r=p.e.a
-r=p.x.b==="Projects"?r/2*0.534:r/2/p.f
-q=n?C.yj:C.yu
-q=L.a3b(p.c,q)
-return V.Vv(M.ki(C.kg,q,o,o,n?C.qN:C.qO,o,o,o,o,r),o,0,new V.aY(0,0,0,0),new X.bQ(new K.bB(C.D,C.D,s,m),C.n))}}
+if(n)n=q.r===q.x.a-1?new P.aI(40,40):new P.aI(0,0)
+else n=new P.aI(0,0)
+r=o?C.yj:C.yu
+r=L.a3b(q.c,r)
+o=o?C.qN:C.qO
+return V.Vv(M.ki(C.kg,r,p,p,o,p,p,p,p,q.e.a/2/q.f),p,0,new V.aY(0,0,0,0),new X.bQ(new K.bB(C.D,C.D,s,n),C.n))}}
 A.vd.prototype={
 N:function(a,b){var s=Y.J5(b,!0,t.mQ),r=P.cR(0,400),q=this.c.a
 return G.Vd(null,C.l,C.nu,r,s.b==="Projects"?q*0.2:q*0.5)}}
@@ -44048,7 +44047,7 @@ C.bh=W.jG.prototype
 C.Av=new H.Dh("AccessibilityMode.unknown")
 C.kf=new K.ds(-1,-1)
 C.kg=new K.cF(0,0)
-C.qb=new K.cF(1,0)
+C.qb=new K.cF(0,1)
 C.mU=new G.td("AnimationBehavior.normal")
 C.mV=new G.td("AnimationBehavior.preserve")
 C.A=new X.c4("AnimationStatus.dismissed")
