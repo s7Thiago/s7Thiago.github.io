@@ -14,9 +14,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "79cc0ee15e131f443cc733be89a54a22",
-"/": "79cc0ee15e131f443cc733be89a54a22",
-"main.dart.js": "34dc0cfdb0ffe07bcdc137b60754b3f8",
+"index.html": "5618b061cee80a0fd3b4b38fc875b408",
+"/": "5618b061cee80a0fd3b4b38fc875b408",
+"main.dart.js": "5538c25f3b63efb6c4a54e6abbb2dd97",
 "manifest.json": "013e5445f31f8a254c28167d067ec6d7",
 "version.json": "08d5d326be8649af214046767d9064aa"
 };
