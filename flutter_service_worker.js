@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "05315d420bc91a1c5f07eff7db3a21b8",
+  "assets/AssetManifest.json": "7b2c33b69765c20b1324d59262a236fc",
 "assets/assets/documents/resume.png": "2e3753cb4a5d25c9676cd1b5349ef552",
 "assets/assets/documents/resume.svg": "a18f7ae05603e05d04b544c4ba9b036e",
 "assets/assets/documents/resume_ai.svg": "db70eb29f39e29593906c17b0be21e37",
@@ -12,15 +12,16 @@ const RESOURCES = {
 "assets/assets/images/qr-code-contact-square.png": "d57047fbdbc134e1eb2d095d1d57a010",
 "assets/assets/images/qr-code-contact.png": "6d9a067479723f85214a4080baea743c",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "132a5e63b5e510933ab4845577716106",
-"assets/NOTICES": "ae01e1ca8db0d51a49229a2beffb1b17",
+"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/NOTICES": "216833b304369d343dd074ca62420a89",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "b14fcf3ee94e3ace300b192e9e7c8c5d",
+"assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "708018e378251381f55eea05914996d6",
-"/": "708018e378251381f55eea05914996d6",
-"main.dart.js": "ec715cada179323bec08deb4a4983797",
+"index.html": "79fc26a5c388e2a5b61b2c25fd62d540",
+"/": "79fc26a5c388e2a5b61b2c25fd62d540",
+"main.dart.js": "c68471a86a9870d076df5a5578ba123e",
 "manifest.json": "013e5445f31f8a254c28167d067ec6d7",
 "version.json": "08d5d326be8649af214046767d9064aa"
 };
@@ -40,7 +41,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -166,7 +167,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
